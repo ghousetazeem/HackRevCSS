@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    margin-top: 9vh;
+    background-color: #00a69c;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    padding: 2rem 3rem;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button{
+    color: white;
+    background-color: #00a69c;
+    margin-top: 1.2rem;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+}
+.button{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* border: 0px; */
+    border-radius: 5rem;
+    
+    font-size: .95rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    
+    box-shadow: 0 4px rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.19);
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: .65rem .95rem;
+    width: 100%;
+    max-width: 12rem;
+
+    cursor: pointer;
+    transition: .3s;
+}
+a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #00a69c;
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+}

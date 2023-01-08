@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-top: 1rem;
+    display: inline;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+div{
+    margin-top: 2rem;
+}
+
+
+h2{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.half-head{
+    font-size: 1.6rem;
+}
+
